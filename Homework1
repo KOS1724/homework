@@ -1,0 +1,30 @@
+def string_length(s):
+    return len(s)
+print(string_length("hello"))   
+print(string_length("Python")) 
+
+
+def greet(a, b):
+    print(a + b)
+
+
+def add(a, b):
+    return a + b
+
+
+
+def is_even(number):
+    return number % 2 == 0
+
+def string_length(s):
+    return len(s)
+
+def max_of_two(a, b):
+    if a > b:
+        return a
+    else:
+        return b
+
+
+print(max_of_two(10, 5)) 
+print(max_of_two(3, 7))
